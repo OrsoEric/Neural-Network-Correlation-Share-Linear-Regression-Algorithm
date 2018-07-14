@@ -86,7 +86,7 @@
 **  y = b[m] +x[m] *g[m]
 **
 **  partial correlation share factor. There is a lot of math behind this
-**  F[m] = std[m] *PROD(j!=m)(std[j])
+**  F[m] = covar[m] *PROD(j!=m)(std[j])
 **  elevate the partial correlation factor to an high power (H = 2, 4, 8, ...)
 **  H should be even to have only positive factors. sign is alreay stored in gain.
 **  this enchance the contrast between correlation and is better at muting uncorrelated inputs.
